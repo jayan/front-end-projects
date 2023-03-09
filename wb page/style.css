@@ -1,0 +1,234 @@
+#div1{
+   height: 1000vh;
+   width: 100%;
+   background-color: rgb(235, 234, 234);
+}
+
+.jak{
+    height:12vh;
+    width:100%;
+    background-color: white;
+    text-align: center;
+    position: fixed;
+    font-size: xx-large;
+}
+.kumar{
+    height: 100vh;
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    border:1px solid  wheat;
+}
+
+#lk{
+    height:90vh;
+    margin: 30px;
+    border:2px solid  black;
+
+}
+.ko{
+    font-size: x-large;
+}
+
+#uki{
+    height: 141vh;
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    border:1px solid  wheat;
+
+}
+
+.ekl{
+    font-size: xx-large;
+    color: rgb(17, 190, 242);
+}
+.eko{
+    font-size: large;
+}
+
+#uyu{
+    height: 148vh;
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    border:1px solid  wheat;
+}
+.akil{
+    height: 350px;
+    width: 348px;
+    display:inline-block;
+    text-align: center;
+    color:rgb(17, 190, 242);
+    font-size: xx-large;
+    float: left;
+    
+}
+.jkil{
+    height: 350px;
+    width: 348px;
+   
+    display:inline-block;
+    float: middle;
+    
+}
+.okil{
+    height: 350px;
+    width: 348px;
+    display: inline-block;
+    text-align: center;
+    color:rgb(17, 190, 242);
+    font-size: xx-large;
+    float:right;
+
+}
+.aki{
+    height: 350px;
+    width: 348px;
+    display:inline-block;
+    float: left;
+
+}
+.jki{
+    height: 350px;
+    width: 348px;
+    display:inline-block;
+    text-align: center;
+    color:rgb(17, 190, 242);
+    font-size: xx-large;
+    float: middle;
+}
+.oki{
+    height: 350px;
+    width: 348px;
+    display:inline-block;
+    float: right;
+
+}
+.ak{
+    height: 350px;
+    width: 348px;
+    display:inline-block;
+    text-align: center;
+    color:rgb(17, 190, 242);
+    font-size: xx-large;
+    float: left;
+
+}
+.ji{
+    height: 350px;
+    width: 348px;
+    display:inline-block;
+    float: middle;
+
+}
+.oi{
+    height: 350px;
+    width: 348px;
+    display:inline-block;
+    text-align: center;
+    color:rgb(17, 190, 242);
+    font-size: xx-large;
+    float: right;
+    
+}
+
+#aps{
+    height: 40vh;
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    border:1px solid  wheat;
+
+}
+.kolp{
+    font-size: large;
+    color:rgb(17, 190, 242);
+}
+.apk{
+    font-size: xx-large;
+}
+
+#container2{
+    margin-left:230px;
+}
+#container3{
+    height: 120vh;
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 201px;
+    margin-bottom: 50px;
+    border:1px solid  wheat;
+}
+.hjk{
+    height: 250px;
+    width:351px;
+    display:inline-block;
+    float:left;
+
+}
+.hjo{
+    height: 250px;
+    width: 351px;
+    display:inline-block;
+    float:middle;
+}
+.hja{
+    height: 250px;
+    width:350px;
+    display:inline-block;
+    float:right;
+}
+.huk{
+    height: 250px;
+    width:351px;
+    display:inline-block;
+    float:left;
+
+}
+.hua{
+    height: 250px;
+    width: 351px;
+    display:inline-block;
+    float:middle;
+
+}
+.hut{
+    height: 250px;
+    width:350px;
+    display:inline-block;
+    float:right;
+
+}
+#tage{
+    height: 35vh;
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    border:1px solid  wheat;
+
+}
+.nk{
+    font-size: xx-large;
+    color:rgb(17, 190, 242);
+    text-align: center;
+
+}
+#container8{
+    height: 150vh;
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    border:1px solid  wheat;
+
+}
+.fon{
+    font-size: xx-large;
+    color:rgb(17, 190, 242);
+}
