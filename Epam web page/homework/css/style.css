@@ -1,0 +1,217 @@
+
+
+.flex-item img
+{
+display: inline-block;
+height: auto;
+width: 50%;
+float: left;
+}
+
+.tm-content-box .padding-medium.flex-item.tm-team-description-container
+{
+
+display: inline-block;
+width:30%;
+margin: 0px 70px;
+padding-top: 80px;
+float: left;
+
+}
+
+ .tm-content-box .padding-medium.flex-item.tm-team-description-container
+{
+background-color: black;
+} 
+
+/* hover effect */ 
+
+h2.tm-section-title.tm-section-title-box.tm-box-bg-title:hover
+{
+color:white;
+background-color: skyblue;
+font-weight: bold;
+}
+
+/* lightskyblue (#87CEFA) and font size to 30px.*/
+
+p::first-letter{
+  color: #87CEFA;
+  font-size: 30px;
+  }
+
+
+/*  box shadow */
+.tm-nav-item:hover
+{
+background-color: rgba(175, 173, 173, 0.308);
+}
+
+/* box shadow*/
+.tm-main-nav,.tm-content-box,.tm-content-header,.margin-b-10
+
+{
+box-shadow: 0px 2px 10px grey;
+}
+
+/*grey border to the banner */
+
+.tm-banner
+{
+ border: 3px solid grey; 
+background-color: rgba(177, 173, 173, 0.178);
+}
+
+.tm-banner-inner
+{
+background-color: white;
+}
+
+
+/* Change color of ‘How We Do It’ to gainsboro and add letter spacing 5px */
+
+.tm-section-title{
+  color: gainsboro;
+  letter-spacing: 5px;
+}
+
+/* h2 tag should have italic font style*/
+
+h2 + p
+{
+font-style: italic;
+}
+
+/* vertical space between lines is increased, there is some free space at the start of the first line */
+
+.tm-content-box.flex-2-col p{
+  line-height: 35px;
+  text-indent: 15px;
+
+}
+
+/* Apply the following styles in “We are” section */
+.text::after
+{
+content: "NEW";
+vertical-align: super;
+color:red;
+font-size: x-small;
+}
+ol li a:visited
+{
+text-decoration: underline;
+}
+
+
+/* 9) Add layout and styles for following block. */
+
+li.box.box-work
+
+{
+padding: 6px;
+}
+
+li.box.box-work:nth-child(even)
+{
+background-color: rgba(201, 194, 194, 0.267);
+}
+
+li.box.box-work p
+{
+color: black;
+font-style: italic;
+font-size: small;
+}
+
+li.box.box-work p::first-letter
+{
+color: black;
+font-weight: 0;
+}
+
+
+/* 10) Change submit button styles */
+.btn.btn-primary.submit-btn:hover{
+  background-color: skyblue;
+  color: white;
+  border-radius: 0px;
+  
+  }
+  .btn.btn-primary.submit-btn{
+    float:right;
+    background-color: white;
+    color: skyblue;
+    border-radius: 0px;
+    border: 1px solid skyblue;
+  
+  }
+  
+.form-group.col-xs-12.col-sm-12.col-md-6.col-lg-6.form-group-2-col-right.mandatory-field::after
+{
+content: "*";
+color: red;
+
+}
+
+ol li a:visited
+{
+text-decoration: underline;
+
+}
+.tm-sidebar:hover{
+    background-color: grey;
+
+}
+
+
+/*As you can see, the preview looks not so good and we should improve it. The result should look close 
+(not pixel perfect) to the provided example in Figure 2. Pay attention, only the first section should be 
+available for print (“What we do”)*/
+@media print{
+
+
+  div p::first-letter{
+  
+  color: #87CEFA;
+  font-size: 30px;
+  }
+  
+  
+  h2.tm-section-title{
+  
+  color: darkblue;
+  }
+  
+  .padding-medium.flex-item.tm-team-description-container.flex-item{
+  float: left ;
+  width: 50%;
+  margin: 50px;
+  margin-bottom: 0px;
+  }
+  .tm-footer{
+    padding-bottom: 0px;
+    margin: 0px;
+    }
+  
+  .tm-content-box {
+  
+  margin-bottom: 0px
+  }
+  
+  .tm-section-description{
+  text-indent: 25px;
+  }
+  h2 + p{
+  font-style: italic;
+  }
+  .flex-item img{
+    margin-top: 180px;
+    height: 180px;
+    width: 230px;
+    float: left;
+    }
+  .tm-sidebar,#about,.heading.tm-content-box,.blocks,.ideas,.carousel-inner,.img-fluid.img-contact-us,#contact,.carousel-indicators{
+  display: none;
+  }
+  }

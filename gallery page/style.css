@@ -1,0 +1,111 @@
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing:border-box;
+}
+#container{
+    height:500vh;
+    width:100%;
+    background-color: rgb(221, 217, 217);
+}
+
+
+#container1{
+    height: 60px;
+    background-color: rgb(178, 176, 176);
+    border-color: 2px solid black;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black; 
+
+}
+.link:hover{
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+.search input[type=text]{
+    width:300px;
+    height:25px;
+    border-radius:25px;
+    border: none;
+}
+     
+.search{
+    float:right;
+    margin:7px;
+}
+     
+.search button{
+    background-color: black;
+    color: #f2f2f2;
+    float: right;
+    padding: 5px 10px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+#contain{
+    height:500px;
+    width:100%;
+    background-image: url(img_5terre_wide.jpg);
+    background-size: cover;
+    background-position: fixed;
+    transition: 5s;
+
+    animation-name:animate;
+    animation-direction:alternate-reverse ;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease-in-out;   
+}
+
+@keyframes animate{
+    0%{
+        background-image: url(img_5terre_wide.jpg);
+    }20%{
+        background-image: url(pexels-danne-516541.jpg);
+    }
+    40%{
+        background-image: url(pexels-eberhard-grossgasteiger-443446.jpg);
+    }
+    60%{
+        background-image: url(istockphoto-1089385462-1024x1024.jpg);
+    }
+    80%{
+        background-image: url(istockphoto-1140578228-2048x2048.jpg);
+    }
+    100%{
+        background-image: url(pexels-eberhard-grossgasteiger-443446.jpg);
+    }
+}
+.text{
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+}
+img{
+    width:100%;
+    margin-top: 8px;
+    border-radius: 10px;
+}
+.flex-container:hover{
+    display:flex;
+    flex-wrap:wrap;
+}
+.col{
+    flex:25%;
+    max-width:25%;
+    padding: 0 4px;
+}
